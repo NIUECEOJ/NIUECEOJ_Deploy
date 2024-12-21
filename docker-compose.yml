@@ -26,7 +26,7 @@ services:
     volumes:
       - ./data/forum:/forum
     environment:
-      - STATIC_CDN_HOST=http://127.0.0.1
+      - STATIC_CDN_HOST=http://127.0.0.1 #改成伺服器的ip
     
   judge-server:
     # image: registry.cn-hangzhou.aliyuncs.com/onlinejudge/judge_server
